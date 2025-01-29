@@ -6,10 +6,7 @@ public class Todo {
     private boolean completed;
 
     // Default constructor
-    public Todo( ) {
 
-
-    }
 
     // Parameterized constructor
     public Todo(int userId, int id, String title, boolean completed) {

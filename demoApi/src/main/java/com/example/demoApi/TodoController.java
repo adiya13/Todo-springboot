@@ -12,6 +12,9 @@ public class TodoController {
 
     public TodoController() {
         todos = new ArrayList<>();
-        todos.add(new Todo());
+        todos.add(new Todo(1,1,"todo1",false));
+        todos.add(new Todo(2,2,"todo2",true));
     }
+
+
 }
